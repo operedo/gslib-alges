@@ -1,0 +1,40 @@
+
+ Category  number  1 =        1.000
+           global prob value =   0.1470
+           number of structures =   1
+           nugget effect        =   0.0500
+           type of structure   1 =   1
+           aa parameter         =     100.0000
+           cc parameter         =       0.9500
+           ang1, ang2, ang3     =   0.00  0.00  0.00
+           anis1, anis2         =       1.0000      0.2500
+
+ Category  number  2 =        2.000
+           global prob value =   0.6880
+           number of structures =   1
+           nugget effect        =   0.0500
+           type of structure   1 =   1
+           aa parameter         =     100.0000
+           cc parameter         =       0.9500
+           ang1, ang2, ang3     =   0.00  0.00  0.00
+           anis1, anis2         =       1.0000      0.2500
+
+ Category  number  3 =        3.000
+           global prob value =   0.1650
+           number of structures =   1
+           nugget effect        =   0.0500
+           type of structure   1 =   1
+           aa parameter         =     100.0000
+           cc parameter         =       0.9500
+           ang1, ang2, ang3     =   0.00  0.00  0.00
+           anis1, anis2         =       1.0000      0.2500
+
+  Data for SISIM: Variable number  7
+  Number of acceptable data  =     2375
+  Equal Weighted Average     =       2.0143
+  Equal Weighted Variance    =       0.3114
+
+
+ There are          317  nearby nodes that will be 
+ checked until enough close data are found.
+

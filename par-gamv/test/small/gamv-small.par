@@ -1,0 +1,14 @@
+START OF PARAMETERS:
+image-small.dat                      -file with data
+1   2   3                         -   columns for X, Y, Z coordinates
+1   4                             -   number of variables,col numbers
+-1.0     1.0e21                   -   trimming limits
+gamv.out              -file for variogram output
+10                                -number of lags
+10.0                              -lag separation distance
+5.0                               -lag tolerance
+1                                 -number of directions
+0.0  90.0 20.0 90.0  90.0 20.0   -azm,atol,bandh,dip,dtol,bandv
+0                                 -standardize sills? (0=no, 1=yes)
+1                                 -number of variograms
+1   1   1                         -tail var., head var., variogram type
