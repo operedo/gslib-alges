@@ -1,1 +1,1 @@
-# par-gamv: Parallel semi-variogram calculation
+# Parallel semi-variogram calculation
