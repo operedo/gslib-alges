@@ -23,6 +23,8 @@ openmp_par:
 	$(FC) $(FFLAGS) $(OPENMP) -I. gamv.o -o gamv_OpenMP $(GSLIB)
 	cp gamv_OpenMP ../bin
 
+# Flag USE_MPI is active. Its value is used as the block size for loop splitting between the MPI processes
+# It is recommended to set the block size of MPI equal to the chunk size of OpenMP
 openmp_mpi_par: 
 	cd $(GSLIB_HOME); make clean; make gslib.a COMPILER="$(MPIFC)" FLAGS="$(FFLAGS)" OMP="$(OPENMP)"; cd -
 	$(MPIFC) $(FFLAGS) -DUSE_MPI=1024 $(OPENMP) -c gamv.fpp
